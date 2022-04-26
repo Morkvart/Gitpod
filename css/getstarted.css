@@ -1,0 +1,149 @@
+.started__container-small {
+  margin-bottom: 160px;
+}
+
+.started__content {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.content__connect,
+.content__workspace {
+  max-width: 642px;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 56px 80px 86px;
+}
+
+.content__workspace {
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.content__connect {
+  margin-right: 26px;
+}
+
+.content__title {
+  font-size: 32px;
+  line-height: 1.25;
+  color: #12100c;
+  text-align: center;
+  font-weight: 700;
+}
+
+.content__subtitle {
+  font-size: 24px;
+  line-height: 1.3333;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.content__items {
+  max-width: 262px;
+  margin: 64px auto;
+}
+
+.content__item {
+  display: flex;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 33px;
+  align-items: center;
+  text-align: left;
+  border-radius: 12px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+  color: #fff;
+}
+
+.content__item:hover {
+  opacity: 0.3;
+  transition: opacity 0.2s;
+}
+
+.content__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.content__item img {
+  margin-right: 16px;
+}
+
+.content__item:nth-child(1) {
+  background-color: #fc6d26;
+}
+
+.content__item:nth-child(2) {
+  background-color: #000;
+}
+
+.content__item:nth-child(3) {
+  background-color: #2684ff;
+}
+
+.content__subtitle span {
+  background-color: #ffe4bc;
+  border-radius: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.content__workspace {
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.workspace__items {
+  margin-top: 32px;
+}
+
+.workspace__item {
+  display: flex;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  height: 56px;
+  width: 100%;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.workspace__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.workspace__logo {
+  display: flex;
+  align-items: center;
+}
+
+.workspace__logo img {
+  padding: 0px 16px;
+}
+
+.workspace__logo span {
+  font-size: 20px;
+  line-height: 1;
+  /* vertical-align: center; */
+}
+
+.workspace__btn {
+  background-color: #12100c;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.14;
+  padding: 7px 12px;
+  margin-right: 12px;
+}
+
+.workspace__btn:hover {
+  background-color: #ffae33;
+  color: #12100c;
+  transition: all 0.3s;
+}

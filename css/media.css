@@ -1,0 +1,318 @@
+@media (max-width: 1024px) {
+  .ready__content,
+  .ready__image {
+    width: 50%;
+  }
+
+  .cicd__content,
+  .cicd__image {
+    width: 50%;
+  }
+
+  .developers__review {
+    width: 33.33333%;
+  }
+}
+
+@media (max-width: 768px) {
+  .ready__title {
+    font-size: 70px;
+  }
+
+  .ready__text {
+    font-size: 19px;
+  }
+
+  .ready__subtitle {
+    margin-top: 100px;
+    font-size: 40px;
+    padding-bottom: 0;
+  }
+
+  .cicd__container-small {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .cicd__text {
+    font-size: 19px;
+  }
+
+  .cicd__buttons {
+    margin-top: 90px;
+  }
+
+  .secure__container-small {
+    margin-top: 70px;
+  }
+
+  .title {
+    font-size: 49px;
+  }
+
+  .secure__text {
+    font-size: 19px;
+  }
+
+  .secure__container-small {
+    margin-bottom: 100px;
+  }
+
+  .developers__review {
+    font-size: 14px;
+  }
+
+  .developers__reviews {
+    margin-bottom: 0;
+  }
+
+  .company {
+    margin-bottom: 100px;
+  }
+
+  .company__item {
+    margin-right: 50px;
+  }
+
+  .started__content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .content__title {
+    font-size: 25px;
+  }
+
+  .content__subtitle {
+    font-size: 19px;
+  }
+
+  .workspace__logo span {
+    font-size: 15px;
+  }
+
+  .workspace__btn {
+    font-size: 12px;
+  }
+
+  .content__connect {
+    width: 100%;
+    padding: 26px 50px 56px;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+
+  .content__workspace {
+    width: 100%;
+  }
+
+  .started__container-small {
+    margin-bottom: 100px;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__button {
+    position: absolute;
+    right: 50px;
+  }
+
+  .hamburger {
+    right: 10px;
+    display: block;
+  }
+
+  #menu-toggler:checked ~ .header__menu {
+    display: flex;
+    transition: all 0.3s;
+  }
+
+  .header__logo {
+    position: absolute;
+  }
+
+  .menu__list {
+    background-color: #f5f3f4;
+    position: absolute;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .menu__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .menu__item {
+    margin-top: 20px;
+  }
+
+  .menu__item:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .ready__content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .ready__title {
+    font-size: 50px;
+  }
+
+  .ready__text {
+    font-size: 16px;
+  }
+
+  .block-content__text {
+    font-size: 12px;
+  }
+
+  .ready__block-content {
+    justify-content: space-between;
+  }
+
+  .ready__image {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .ready__subtitle {
+    font-size: 30px;
+  }
+
+  .cicd__container-small {
+    flex-wrap: wrap;
+  }
+
+  .cicd__content {
+    width: 100%;
+  }
+
+  .cicd__title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .cicd__text {
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .cicd__buttons {
+    margin-top: 50px;
+    justify-content: space-between;
+  }
+
+  .cicd__image {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .secure__text {
+    font-size: 16px;
+  }
+
+  .secure__button span {
+    font-size: 14px;
+  }
+
+  .developers__reviews {
+    flex-wrap: wrap;
+  }
+
+  .developers__review {
+    width: 100%;
+    margin-bottom: 14px;
+  }
+
+  .developers__review:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .company {
+    margin-top: 30px;
+  }
+
+  .company__item {
+    margin-right: 20px;
+  }
+
+  .content__subtitle {
+    font-size: 16px;
+  }
+
+  .content__connect {
+    padding: 20px;
+  }
+
+  .content__items {
+    margin: 20px auto;
+  }
+
+  .content__item {
+    font-size: 12px;
+  }
+
+  .workspace {
+    padding: 20px;
+  }
+
+  .started__container-small {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer__items {
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .footer__item {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .ready__block-content {
+    flex-direction: column;
+  }
+
+  .ready__text {
+    margin-bottom: 30px;
+  }
+
+  .block-content__button {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .block-content__button a {
+    font-size: 14px;
+  }
+
+  .secure__text {
+    margin-bottom: 30px;
+  }
+
+  .secure__button span {
+    font-size: 12px;
+  }
+
+  .workspace__btn {
+    min-width: 102px;
+    width: 102px;
+  }
+}

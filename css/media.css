@@ -1,26 +1,4 @@
-@media (max-width: 1024px) {
-  .developers__review {
-    width: 33.33333%;
-  }
-}
-
 @media (max-width: 768px) {
-  .developers__review {
-    font-size: 14px;
-  }
-
-  .developers__reviews {
-    margin-bottom: 0;
-  }
-
-  .company {
-    margin-bottom: 100px;
-  }
-
-  .company__item {
-    margin-right: 50px;
-  }
-
   .started__content {
     flex-wrap: wrap;
     justify-content: center;
@@ -59,27 +37,6 @@
 }
 
 @media (max-width: 425px) {
-  .developers__reviews {
-    flex-wrap: wrap;
-  }
-
-  .developers__review {
-    width: 100%;
-    margin-bottom: 14px;
-  }
-
-  .developers__review:not(:last-child) {
-    margin-right: 0;
-  }
-
-  .company {
-    margin-top: 30px;
-  }
-
-  .company__item {
-    margin-right: 20px;
-  }
-
   .content__subtitle {
     font-size: 16px;
   }

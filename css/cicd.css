@@ -68,10 +68,10 @@
 }
 
 .cicd__image {
-  /* flex: 0 1 auto; */
   max-width: 590px;
   height: auto;
 }
+
 .cicd__image img {
   display: block;
   width: 100%;
@@ -105,17 +105,11 @@
 }
 
 @media (max-width: 425px) {
-  /* .cicd__content {
-    width: 100%;
-  } */
-
   .cicd__title {
     font-size: 30px;
-    /* text-align: center; */
   }
 
   .cicd__text {
-    /* text-align: justify; */
     font-size: 16px;
   }
 

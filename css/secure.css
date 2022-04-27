@@ -46,13 +46,14 @@
   background-color: #fff;
   color: #12100c;
   border-radius: 9px;
+
+  transition: all 0.3s;
 }
 
 .secure__button:hover {
   cursor: pointer;
   color: #fff;
   background-color: #12100c;
-  transition: all 0.3s;
 }
 
 .secure__button:first-child {
@@ -70,4 +71,35 @@
   font-size: 18px;
   line-height: 1.777;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .secure__container-small {
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+
+  .secure__text {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 425px) {
+  .secure__text {
+    font-size: 16px;
+  }
+
+  .secure__button span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .secure__text {
+    margin-bottom: 30px;
+  }
+
+  .secure__button span {
+    font-size: 12px;
+  }
 }

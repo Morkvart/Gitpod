@@ -4,10 +4,10 @@
     width: 50%;
   } */
 
-  .cicd__content,
+  /* .cicd__content,
   .cicd__image {
     width: 50%;
-  }
+  } */
 
   .developers__review {
     width: 33.33333%;
@@ -15,19 +15,6 @@
 }
 
 @media (max-width: 768px) {
-  .cicd__container-small {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-
-  .cicd__text {
-    font-size: 19px;
-  }
-
-  .cicd__buttons {
-    margin-top: 90px;
-  }
-
   .secure__container-small {
     margin-top: 70px;
   }
@@ -95,113 +82,9 @@
   .started__container-small {
     margin-bottom: 100px;
   }
-
-  .header__menu {
-    display: none;
-  }
-
-  .header__button {
-    position: absolute;
-    right: 50px;
-  }
-
-  .hamburger {
-    right: 10px;
-    display: block;
-  }
-
-  #menu-toggler:checked ~ .header__menu {
-    display: flex;
-    transition: all 0.3s;
-  }
-
-  .header__logo {
-    position: absolute;
-  }
-
-  .menu__list {
-    background-color: #f5f3f4;
-    position: absolute;
-    right: 0;
-    top: 0;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    z-index: 1;
-  }
-
-  .menu__item:not(:last-child) {
-    margin-right: 0;
-  }
-
-  .menu__item {
-    margin-top: 20px;
-  }
-
-  .menu__item:last-child {
-    margin-bottom: 20px;
-  }
 }
 
 @media (max-width: 425px) {
-  .ready__content {
-    width: 100%;
-    text-align: center;
-  }
-
-  .ready__title {
-    font-size: 50px;
-  }
-
-  .ready__text {
-    font-size: 16px;
-  }
-
-  .block-content__text {
-    font-size: 12px;
-  }
-
-  .ready__block-content {
-    justify-content: space-between;
-  }
-
-  .ready__image {
-    width: 100%;
-    margin-top: 30px;
-  }
-
-  .ready__subtitle {
-    font-size: 30px;
-  }
-
-  .cicd__container-small {
-    flex-wrap: wrap;
-  }
-
-  .cicd__content {
-    width: 100%;
-  }
-
-  .cicd__title {
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .cicd__text {
-    text-align: justify;
-    font-size: 16px;
-  }
-
-  .cicd__buttons {
-    margin-top: 50px;
-    justify-content: space-between;
-  }
-
-  .cicd__image {
-    margin-top: 30px;
-    width: 100%;
-  }
-
   .title {
     font-size: 40px;
   }
@@ -272,23 +155,6 @@
 }
 
 @media (max-width: 320px) {
-  .ready__block-content {
-    flex-direction: column;
-  }
-
-  .ready__text {
-    margin-bottom: 30px;
-  }
-
-  .block-content__button {
-    margin: 0;
-    margin-bottom: 10px;
-  }
-
-  .block-content__button a {
-    font-size: 14px;
-  }
-
   .secure__text {
     margin-bottom: 30px;
   }

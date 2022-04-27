@@ -28,8 +28,8 @@ li {
   list-style: none;
 }
 
-[class*="__container-small"] {
+/* [class*="__container-small"] {
   max-width: 1330px;
   padding: 0 10px;
   margin: 0 auto;
-}
+} */

@@ -79,3 +79,14 @@
 .footer__copyright-link:not(:last-child) {
   margin-right: 16px;
 }
+
+@media (max-width: 375px) {
+  .footer__items {
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .footer__item {
+    margin-right: 50px;
+  }
+}

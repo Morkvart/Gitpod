@@ -90,10 +90,13 @@
   margin-bottom: 10px;
 }
 
+.menu__link {
+  transition: text-shadow 0.3s;
+}
+
 .menu__link:hover {
   color: #12100c;
   text-shadow: 0 0 1px #12100c;
-  transition: text-shadow 0.3s;
 }
 
 .header__button a {
@@ -102,10 +105,57 @@
   padding: 6px 22px;
   background-color: #12100c;
   border-radius: 12px;
+  transition: all 0.3s;
 }
 
 .header__button a:hover {
   background-color: #ffae33;
   color: #12100c;
-  transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+  .header__menu {
+    display: none;
+  }
+
+  .header__button {
+    position: absolute;
+    right: 50px;
+  }
+
+  .hamburger {
+    right: 10px;
+    display: block;
+  }
+
+  #menu-toggler:checked ~ .header__menu {
+    display: flex;
+  }
+
+  .header__logo {
+    position: absolute;
+  }
+
+  .menu__list {
+    background-color: #f5f3f4;
+    position: absolute;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .menu__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .menu__item {
+    margin-top: 20px;
+  }
+
+  .menu__item:last-child {
+    margin-bottom: 20px;
+  }
 }

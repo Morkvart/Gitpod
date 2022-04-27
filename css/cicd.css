@@ -1,7 +1,6 @@
 .cicd__container-small {
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
   margin-top: 160px;
   margin-bottom: 150px;
 }
